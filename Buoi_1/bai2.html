@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Buổi 1 - Bài 2</title>
+    <style>
+        #container {
+            margin: 10px auto;
+            width: 450px;
+        }
+
+        td {
+            padding-left: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        table {
+            width: 420px;
+            text-align: left;
+            background-color: LightGray;
+        }
+
+        form {
+            border: 1px solid black;
+            padding: 15px
+        }
+
+
+        th {
+            padding-left: 15px;
+            font-weight: normal;
+        }
+
+        #btncenter {
+            align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h4 style="color:red;text-align:center">Đăng ký tài khoản mới</h4>
+        <p>Vui lòng điền đầy đủ thông tin bên dưới để đăng ký tài khoản mới</p>
+        <form action="reg.php" id="register" method="POST">
+            <table>
+                <tr>
+                    <th>Tên đăng nhập</th>
+                    <td><input type="text" name="username"></td>
+
+                </tr>
+                <tr>
+                    <th>Mật khẩu</th>
+                    <td><input type="password" name="password"></td>
+
+                </tr>
+                <tr>
+                    <th>Gõ lại mật khẩu</th>
+                    <td><input type="password" name="confirm"></td>
+
+                </tr>
+                <tr>
+                    <th>Hình đại diện</th>
+                    <td><input type="file" name="browser"></td>
+                </tr>
+                <tr>
+                    <th>Giới tính</th>
+                    <td><input type="radio" name="gender" value="Nam">Nam
+                        <input type="radio" name="gender" value="Nữ">Nữ
+                        <input type="radio" name="gender" value="Khác">Khác
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Nghề nghiệp</th>
+                    <td>
+                        <select id="select" name="job">
+                            <option value="học sinh">Học sinh</option>
+                            <option value="sinh viên">Sinh viên</option>
+                            <option value="giáo viên">Giáo viên</option>
+                            <option value="khác">Khác</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Sở thích</th>
+                    <td>
+                        <input type="checkbox" name="hobby[]" value="Thể thao">Thể thao
+                        <input type="checkbox" name="hobby[]" value="Du lịch">Du lịch
+                        <input type="checkbox" name="hobby[]" value="Âm nhạc">Âm nhạc <br>
+                        <input type="checkbox" name="hobby[]" value="Thời trang">Thời trang
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="join" value="Đăng ký">
+                        <input type="reset" name="reset" value="Làm lại">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    </html>
