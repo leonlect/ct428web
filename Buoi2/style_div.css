@@ -1,6 +1,7 @@
 #wrap {
   border: 1px solid black;
-  margin: 0 270px;
+  margin: auto;
+  width: 800px;
 }
 
 #title {
@@ -28,11 +29,9 @@
   margin: 0px 0px 0px 9px;
   color: white;
   background: blue;
- 
 }
 
 #menu ul {
-
   list-style-type: none;
   width: 152px;
   margin: 0px 0px 0px 9px;
@@ -40,13 +39,11 @@
 }
 
 #menu ul li {
-
   background: lightblue;
   border: 1px solid green;
   margin: 0;
   padding: 5px;
   border-color: white;
 }
-  
-  
+
 }
