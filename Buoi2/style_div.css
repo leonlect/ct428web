@@ -7,7 +7,8 @@
 #title {
   border: 1px solid red;
   background-image: url(header.jpg);
-  margin: 10px;
+  margin: 15px;
+  width: 770px;
   height: 210px;
   background-repeat: no-repeat;
 }
@@ -16,34 +17,59 @@
   text-shadow: 2px 2px 8px yellow;
   position: relative;
   left: 25px;
+  width: 700px;
+  margin: 15px 30px 15px 15px;
 }
 
 #menu {
-  border: 1px solid green;
+  border: 2px solid green;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  float: left;
+  /* margin-right: 10px; */
 }
 
 #menu h4 {
-  border: 1px solid gray;
-  width: 150px;
+  border: 1px solid blue;
+  padding: 5px;
+  margin: 0px;
   text-align: center;
-  margin: 0px 0px 0px 9px;
   color: white;
-  background: blue;
+  background-color: blue;
 }
 
 #menu ul {
+  display: contents;
+  border: 1px solid gold;
   list-style-type: none;
-  width: 152px;
-  margin: 0px 0px 0px 9px;
-  padding: 0;
+  margin: 0px;
 }
 
 #menu ul li {
-  background: lightblue;
-  border: 1px solid green;
-  margin: 0;
   padding: 5px;
-  border-color: white;
+  text-align: left;
 }
 
+#content {
+  display: block;
+  border: 1px solid green;
+  width: 600px;
+  position: relative;
+  left: 185px;
+}
+
+#content h4 {
+  border: 1px solid orange;
+  color: blue;
+  text-align: right;
+  margin-top: 0;
+  padding: 10px;
+  display: inline-block;
+}
+
+#content p {
+  margin-left: 0px;
+  text-align: left;
 }
