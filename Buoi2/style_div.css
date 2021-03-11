@@ -1,0 +1,52 @@
+#wrap {
+  border: 1px solid black;
+  margin: 0 270px;
+}
+
+#title {
+  border: 1px solid red;
+  background-image: url(header.jpg);
+  margin: 10px;
+  height: 210px;
+  background-repeat: no-repeat;
+}
+
+#title h1 {
+  text-shadow: 2px 2px 8px yellow;
+  position: relative;
+  left: 25px;
+}
+
+#menu {
+  border: 1px solid green;
+}
+
+#menu h4 {
+  border: 1px solid gray;
+  width: 150px;
+  text-align: center;
+  margin: 0px 0px 0px 9px;
+  color: white;
+  background: blue;
+ 
+}
+
+#menu ul {
+
+  list-style-type: none;
+  width: 152px;
+  margin: 0px 0px 0px 9px;
+  padding: 0;
+}
+
+#menu ul li {
+
+  background: lightblue;
+  border: 1px solid green;
+  margin: 0;
+  padding: 5px;
+  border-color: white;
+}
+  
+  
+}
