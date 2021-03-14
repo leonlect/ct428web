@@ -9,8 +9,9 @@ body {
 
 #wrap {
 /*   border: 1px solid black; */
-  margin: auto;
+  margin: 0 auto;
   width: 770px;
+  padding: 5px;
   background-color: white;
 }
 
@@ -96,9 +97,9 @@ body {
 
 #footer {
   border-top: 2px solid ;
+  padding: 15px;
 }
 
 #footer p {
   text-align: center;
-  margin: 15px;
 }
